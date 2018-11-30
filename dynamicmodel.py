@@ -34,7 +34,7 @@ times=range(0,100)
 y0=[500,120]
 params=(0.8,0.07,0.2,5,400,0.001)
 modelRM=spint.odeint(func=RM,y0=y0,t=times,args=params)
-modelRMDF=pandas.DataFrame({"t":times,"H":RM[:,0],"P":RM[:,1]})
+modelRMDF=pandas.DataFrame({"t":times,"H":modelRM[:,0],"P":modelRM[:,1]})
 ggplot(modelRMDF,aes(x="t",y="H"))+geom_line()+geom_line(modelRMDF,aes(x="t",y="P"),color='red')+theme_classic()+ylab("Population size")+xlab("time")
 
 
