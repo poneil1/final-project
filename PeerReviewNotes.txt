@@ -1,0 +1,8 @@
+-All of the Code works fine, comments are good and different components are well organized
+-The figures are really well labeled and have accurate descriptions of their behavior
+-Parameters are clearly defined and their effects are described very well
+-Question mark for Rozenweig-MacArthur Number 3
+-Make sure Figure legends stay with the figures
+
+
+Group Reviewed: Henry Perillo, Vy Sanders, and Helen Streff   
