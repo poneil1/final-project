@@ -58,7 +58,7 @@ print(Prey_Birth_LV)
 #Changing Attack Rate parameter
 Attack_Rate_LV=Scenerios1(0.5,0.04,0.1,0.2)
 print(Attack_Rate_LV)
-#Changing conversion eff parameter
+#Changing conversion efficiency parameter
 Conversion_eff_LV=Scenerios1(0.5,0.02,0.5,0.2)
 print(Conversion_eff_LV)
 #Changing Predator Rate parameter
@@ -71,7 +71,7 @@ print(OriginalRM)
 #Changing Prey birth rate parameter
 Prey_Birth_RM=Scenerios2(1.6,.07,.2,5,400,.001)
 print(Prey_Birth_RM)
-#Changing Conversion eff parameter
+#Changing Conversion efficiency parameter
 Conversion_eff_RM=Scenerios2(.8,.14,.2,5,400,.001)
 print(Conversion_eff_RM)
 #Changing Death rate parameter
