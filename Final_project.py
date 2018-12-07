@@ -4,6 +4,8 @@ Created on Wed Nov 28 10:49:30 2018
 
 
 """
+#Code to visulaize changes in the LV and RM models through the use of ggplot.
+
 
 #Library imports
 import pandas
