@@ -49,7 +49,7 @@ def Scenerios2(b,e,s,w,d,a):
     b=b+geom_line(aes(x="t",y="P"),color='red')
     b=b+xlab("Time")+ylab("Population size")
     return b
-#Lotka-Volterra model scenerios
+#Lotka-Volterra model scenerios (b,a,e,s)
 OriginalLV=Scenerios1(0.5,0.02,0.1,0.2)
 print(OriginalLV)
 #Changing Prey birth rate parameter 
@@ -65,7 +65,7 @@ print(Conversion_eff_LV)
 Predator_Rate_LV=Scenerios1(0.5,0.02,0.1,1)
 print(Predator_Rate_LV)
 
-# Rosenzweig-MacArthur model scenerios
+# Rosenzweig-MacArthur model scenerios (b,e,s,w,d,a)
 OriginalRM=Scenerios2(.8,.07,.2,5,400,.001)
 print(OriginalRM)
 #Changing Prey birth rate parameter
